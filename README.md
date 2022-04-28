@@ -12,6 +12,11 @@ Now you have **2 options** to build and run the application
 - Build and run using docker
 
     ```
+    docker-compose up 
+    ```
+    or if you want to (re)build everything:
+
+    ```
     docker-compose up --build
     ```
 - Run on your local machine if Java 8 and Maven are installed
